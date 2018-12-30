@@ -91,7 +91,7 @@ mainWindow.webContents.send('name_of_info', 'info being sent');
 <hr>
 
 ## Video Info Application
-The files in this repository reflect the use of electron and the communication methods expleined above to create a GUI application that returns the duration of a video file using the fluent-ffmpeg npm package.
+The files in this repository reflect the use of electron and the communication methods explained above to create a GUI application that returns the duration of a video file using the fluent-ffmpeg npm package.
 ![~image of GUI for Video Info Application~](images/electron_video_info_application.png)
 
 <hr>
