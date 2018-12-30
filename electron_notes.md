@@ -18,7 +18,12 @@ A prompt will appear which will allow you to modify the information in the json 
 ```bash
 npm install --save electron
 ```
-
+Then the package.json file must be edited so that electron is run instead of just node.js. Simply edit the package.json file so that the scripts tag reads as such
+```json
+"scripts": {
+  "electron": "electron ."
+},
+```
 ### - Creating the js and html files
 By default, the package.json file will look for a file called index.js when running the electron application. This can be changed in the package.json file if desired. The base code for index.js to utilize electron is the following:
 ```javascript
